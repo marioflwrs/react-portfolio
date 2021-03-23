@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5e145ba7.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.191fbc0c.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.191fbc0c.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.aa4135b0.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.aa4135b0.js.map",
-    "static/js/2.ce75d80c.chunk.js": "/react-portfolio/static/js/2.ce75d80c.chunk.js",
-    "static/js/2.ce75d80c.chunk.js.map": "/react-portfolio/static/js/2.ce75d80c.chunk.js.map",
-    "static/js/3.96dd4338.chunk.js": "/react-portfolio/static/js/3.96dd4338.chunk.js",
-    "static/js/3.96dd4338.chunk.js.map": "/react-portfolio/static/js/3.96dd4338.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.c052a7d0.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.ce0ff681.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ce0ff681.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.c019fc90.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.c019fc90.js.map",
+    "static/js/2.e8caf33e.chunk.js": "/react-portfolio/static/js/2.e8caf33e.chunk.js",
+    "static/js/2.e8caf33e.chunk.js.map": "/react-portfolio/static/js/2.e8caf33e.chunk.js.map",
+    "static/js/3.3b0b7183.chunk.js": "/react-portfolio/static/js/3.3b0b7183.chunk.js",
+    "static/js/3.3b0b7183.chunk.js.map": "/react-portfolio/static/js/3.3b0b7183.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.5e145ba7.chunk.css.map": "/react-portfolio/static/css/main.5e145ba7.chunk.css.map",
-    "static/js/2.ce75d80c.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ce75d80c.chunk.js.LICENSE.txt"
+    "static/css/main.c052a7d0.chunk.css.map": "/react-portfolio/static/css/main.c052a7d0.chunk.css.map",
+    "static/js/2.e8caf33e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e8caf33e.chunk.js.LICENSE.txt",
+    "static/media/avatar.a86b0e2b.jpg": "/react-portfolio/static/media/avatar.a86b0e2b.jpg",
+    "static/media/ga-logo.8c1f2d83.png": "/react-portfolio/static/media/ga-logo.8c1f2d83.png",
+    "static/media/inflectra-logo.3efbf2e9.png": "/react-portfolio/static/media/inflectra-logo.3efbf2e9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa4135b0.js",
-    "static/js/2.ce75d80c.chunk.js",
-    "static/css/main.5e145ba7.chunk.css",
-    "static/js/main.191fbc0c.chunk.js"
+    "static/js/runtime-main.c019fc90.js",
+    "static/js/2.e8caf33e.chunk.js",
+    "static/css/main.c052a7d0.chunk.css",
+    "static/js/main.ce0ff681.chunk.js"
   ]
 }
