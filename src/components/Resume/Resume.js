@@ -1,14 +1,14 @@
-import './Projects.scss';
+import './Resume.scss';
 
 import Navigation from '../Navigation/Navigation';
 
-const Projects = () => {
+const Resume = () => {
     return(
         <div>
             <Navigation />
-            <h1>this is my projects page</h1>
+            <h1>Resume</h1>
         </div>
     );
 }
 
-export default Projects;
+export default Resume;

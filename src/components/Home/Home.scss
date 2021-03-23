@@ -1,0 +1,32 @@
+.home-title-container {
+    display: grid;
+    margin: 20px 0;
+    justify-items: center;
+
+    h2 {
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
+}
+
+.section-container {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.ga-logo {
+    width: 50%;
+}
+
+.inflectra-logo {
+    width: 50%;
+}
+
+.section-container{
+
+    p{
+        font-size: 14px;
+    }
+}
