@@ -11,8 +11,8 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Home exact path="/react-portfolio" />
+      <Router basepath={process.env.PUBLIC_URL}>
+        <Home exact path="/" />
         <Breaking path="/breaking" />
         <Projects path="/projects" />
         <Resume path="/resume" />
