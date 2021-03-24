@@ -11,7 +11,7 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <Router basepath={process.env.PUBLIC_URL}>
+      <Router>
         <Home exact path="/" />
         <Breaking path="/breaking" />
         <Projects path="/projects" />
