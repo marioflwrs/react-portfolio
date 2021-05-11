@@ -16,6 +16,7 @@ const Navigation = () => {
             <div className="profile-container">
                 <img src={avatar} alt="profile" className="avatar"/>
                 <h2 className="profile-name-location"> Mario Ballesteros | Brooklyn, NY</h2>
+                <p className="contact-email">email: <strong>maballesteros@protonmail.com</strong></p>
             </div>
         </div>
     );

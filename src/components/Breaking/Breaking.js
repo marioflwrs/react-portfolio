@@ -16,13 +16,13 @@ const Breaking = () => {
                 </div>
             </div>
             <section className="break-background">
+                <img className="mario-dance-gif" src="https://media.giphy.com/media/YBYEK0ZDeEmv9LrlYm/giphy.mp4" alt="Mario breakdancing gif" />
+                <video loop autoPlay className="video-container">
+                    <source src="https://media.giphy.com/media/YBYEK0ZDeEmv9LrlYm/giphy.mp4" alt="Mario breakdancing gif" />                    
+                </video>
                 <p className="breaking-descripition">
                     I started breaking at the age of 17. Since then, I have traveled across the world in order to compete against the best of the best!
                 </p>
-                <img className="mario-dance-gif" src="https://media.giphy.com/media/YBYEK0ZDeEmv9LrlYm/giphy.mp4" alt="mario breakdancing" />
-                <video loop autoPlay className="video-container">
-                    <source src="https://media.giphy.com/media/YBYEK0ZDeEmv9LrlYm/giphy.mp4" alt="flowers breakdancing" />                    
-                </video>
             </section>
         </div>
     );

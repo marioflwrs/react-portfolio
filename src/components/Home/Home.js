@@ -1,7 +1,5 @@
 //Components
 import Navigation from '../Navigation/Navigation';
-import Footer from '../Footer/Footer';
-
 
 //Style
 import './Home.scss';
@@ -31,11 +29,7 @@ const Home = () => {
                     <img src={galogo} alt="General Assembly logo" className="ga-logo"/>
                     <p>Front-End Web Development 2016 <br /> Bootcamp</p>
                 </section>
-            </div>
-            
-
-            <Footer />
-           
+            </div>           
         </div>
     );
 }
