@@ -13,11 +13,11 @@ const Home = () => {
     return(
         <div className="home-container">
             <Navigation />
-            <p>I'm a breakdancing web developer! I love to spin on my head and create fully functioning websites using React.JS</p>
+            <p>I'm a breakdancing web developer!<br/> I love to spin on my head and create fully functioning websites using React.</p>
 
             <div className="skills-container">                
                 <div className="home-title-container">
-                    <h2>Experience</h2> 
+                    <h2><strong>Experience</strong></h2> 
                 </div>
 
                 <section className="section-container inflectra">

@@ -12,15 +12,14 @@ const Navigation = () => {
                 <Link to="/">Home</Link>
                 <Link to="/breaking">Breaking</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
             </div>
             <div className="profile-container">
                 <img src={avatar} alt="profile" className="avatar"/>
                 <h2 className="profile-name-location"> Mario Ballesteros | Brooklyn, NY</h2>
                 <p className="contact-email">email: <strong>maballesteros@protonmail.com</strong></p>
                 <div className="icons-container">
-                    <img src={githubLogo} alt="github" />
-                    <img src={linkedinLogo} alt="linkedin" />
+                    <a href="https://github.com/marioflwrs" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt="github" /></a>
+                    <a href="https://www.linkedin.com/in/marioballesteros91/" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="linkedin" /></a>
                 </div>
             </div>
         </div>
