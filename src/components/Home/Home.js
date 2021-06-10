@@ -20,15 +20,15 @@ const Home = () => {
                     <h2><strong>Experience</strong></h2> 
                 </div>
 
-                <section className="section-container inflectra">
+                <div className="section-container inflectra">
                     <img src={inflectralogo} alt="inflectra logo" className="inflectra-logo"/>
                     <p>React.JS Internship | Sept 2017 - November 2017</p>
-                </section>
+                </div>
                 
-                <section className="section-container">
+                <div className="section-container">
                     <img src={galogo} alt="General Assembly logo" className="ga-logo"/>
                     <p>Front-End Web Development 2016 <br /> Bootcamp</p>
-                </section>
+                </div>
             </div>           
         </div>
     );

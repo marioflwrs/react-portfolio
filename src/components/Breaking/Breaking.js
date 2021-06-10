@@ -16,7 +16,7 @@ const Breaking = () => {
                 </div>
             </div>
             
-            <section>
+            <div>
             
                 <img className="mario-dance-gif" src="https://media.giphy.com/media/YBYEK0ZDeEmv9LrlYm/giphy-downsized-large.gif" alt="Mario breakdancing gif" />
                 
@@ -27,7 +27,7 @@ const Breaking = () => {
                 
                 <p className="breaking-description"> I started breaking at the age of 17. Since then, I have traveled across the world in order to compete against the best of the best! </p>
                    
-            </section>
+            </div>
 
             <section className="jams">
                 <h1 className="jams-title">More</h1>
