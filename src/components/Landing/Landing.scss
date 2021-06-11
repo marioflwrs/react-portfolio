@@ -1,0 +1,33 @@
+.landing-background {
+  background-image: url(../../assets/mario-side.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+
+  .landing-nav-container {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    height: 100vh;
+
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 4rem;
+      letter-spacing: 3px;
+      font-weight: normal;
+    }
+
+    
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+  }
+}
