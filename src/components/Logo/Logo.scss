@@ -8,7 +8,8 @@
   h1 {
     font-size: 1.4rem;
     padding-right: 30px;
-
+    transition:ease-in-out 0.3s all;
+    transition-delay: 0.1s;
     &:hover {
       padding-right: 50px;
       transition:ease-in-out 0.3s all;
@@ -17,8 +18,7 @@
 
   a {
     &:hover {
-      color: red;
-      
+      color: #e74900;
     }
   }
 }
