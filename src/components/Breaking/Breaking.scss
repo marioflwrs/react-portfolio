@@ -24,7 +24,7 @@
     }
 
 
-    h1 {
+    .break-title {
       color: #e74900;
       font-size: 3rem;
   
@@ -44,6 +44,26 @@
 
     h2 {
       color: #fff;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 850px) {
+  .breaking-container {
+
+    .breaking-content-container {
+
+      .content-inner-container {
+
+        width: 50%;
+
+        h2 {
+          width: 75%;
+          
+        }
+      }
     }
   }
 }
