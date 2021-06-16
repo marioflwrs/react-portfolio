@@ -1,6 +1,8 @@
 import Logo from "../Logo/Logo";
 import './Breaking.scss';
 
+import { Link } from "react-router-dom";
+
 const Breaking = () => {  
 
   return(
@@ -8,7 +10,7 @@ const Breaking = () => {
         <div className="breaking-content-container">
           <div className="content-inner-container">
             <Logo />
-            <h1 className="break-title">Breakin'</h1>
+            <Link to="/"><h1 className="break-title">Breakin'</h1></Link>
             <video autoPlay loop muted poster="https://media.giphy.com/media/YBYEK0ZDeEmv9LrlYm/giphy.mp4">
               <source src="https://media.giphy.com/media/YBYEK0ZDeEmv9LrlYm/giphy.mp4" />
             </video>

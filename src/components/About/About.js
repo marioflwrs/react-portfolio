@@ -1,6 +1,8 @@
 import Logo from "../Logo/Logo";
 import mariosmile from "../../assets/mario-smile.jpg";
 
+import { Link } from "react-router-dom";
+
 import './About.scss';
 
 const About = () => {
@@ -12,7 +14,7 @@ const About = () => {
                     <Logo />
                     <h1 className="title-style">I build websites using today's latest practices</h1>
                     <img src={mariosmile} alt="about avatar" />
-                    <h1 className="title-style">About</h1>
+                    <Link to="/"><h1 className="title-style">About</h1></Link>
                     <h2>Hello! I'm Mario. I'm a self-taught breakdancing web developer with a total of 5+ years of web development experience.</h2>
                     <p>Thats right! Just how I love to spin on my head, I also love to spin my code into fully functioning web applications.</p>
                     <p>What initially started out as a hobby to help out some friends with the structuring & styling for their websites, soon became a hidden passion that I began to explore.</p>
