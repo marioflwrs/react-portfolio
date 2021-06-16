@@ -1,0 +1,32 @@
+.contact-container {
+  animation: fadein 2s ease-in-out backwards;
+  color: #e74900;
+  background-image: url(../../assets/mario-bench.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  
+  .inner-contact-container {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 20px;
+
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+      margin: 0;
+      padding-top: 15px;
+    }
+
+    a {
+      color: #e74900;
+    }
+  }
+}

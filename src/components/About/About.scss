@@ -1,10 +1,15 @@
+@keyframes fadeslide {
+  from { opacity: 0; transform: translate3d(0, 50px, 0) }
+  to { opacity: 1; transform: translate3d(0, 0, 0) }
+}
+
 .about-container {
-  transition: ease-in-out 2s all;
   width: 100vw;
   height: 100vh;
   color: #fff;
   
   .about-article-container {
+    animation: fadeslide 2s ease-in-out backwards;
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -21,7 +26,7 @@
       flex-flow: column nowrap;
       width: 85%;
 
-      h1 {
+      .title-style {
         font-size: 3rem;
         color: #e74900;
       }
@@ -44,12 +49,28 @@
         letter-spacing: -1px;
         transition-delay: 1s;
         transition: ease-in-out .2s all;
+        padding: 10px 10px 20px 0;
 
         &:hover {
           padding-left: 10px;
           transition: ease-in-out .2s
         }
       }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    .about-article-container {
+      width: 50%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
     }
   }
 }

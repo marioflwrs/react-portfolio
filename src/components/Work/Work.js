@@ -8,21 +8,21 @@ const Work = () => {
   const ProjectCards = [
         {
           title: "TYLERBILLINGER",
-          description: "React.JS, Sass, Heroku, Google SEO",
+          description: "React, Sass, Heroku, Google SEO",
           url: "//www.tylerbillinger.com",
           key: 1
         },
       
         {
           title: "MARIOBALLE",
-          description: "React.js & Sass",
+          description: "React & Sass",
           url: "//www.google.com",
           key: 2
         },
       
         {
-          title: "title 3",
-          description: "description 3",
+          title: "LIONZOFZION",
+          description: "React, Sass, Node, Express, MongoDB",
           url: "//www.twitch.tv",
           key: 3
         },
@@ -43,10 +43,7 @@ const Work = () => {
       
       ]
 
-        const FadeInSection = ({ children, }) => {
-
-    // const [currCard, setCurrCard] = useState(0);
-    
+    const FadeInSection = ({ children, }) => {
     const domRef = useRef();
     
     const [isVisible, setVisible] = useState(false);
@@ -55,36 +52,34 @@ const Work = () => {
       const observer = new IntersectionObserver(entries => {
         // Observe:     
         if (entries[0].isIntersecting) {
-        
           //Set visibility:
           setVisible(true);
-
-          //Set Cards
-          // setCurrCard(currCard + 1);
-
         }
       });
       
       observer.observe(domRef.current);
       
     }, []);
-  
+
     return (<section ref={ domRef } className={ isVisible ? ' is-visible' : '' }>{ children }</section>);
   };
 
   const projectItems = ProjectCards.map((data) => (
     <a href={data.url} key={ data.key } target="_blank" rel="noreferrer">
-      <FadeInSection className="fadein-style"> 
+      <FadeInSection> 
         <h1 className="project-title-style">{data.title}</h1> 
         <p className="project-description-style">{data.description}</p>  
       </FadeInSection>
     </a>
   ));
   return(
-    <div>
-      <Logo />
-      <div className="projects-container">
-        {projectItems}
+    <div className="work-container">
+      <div className="work-inner-container">
+        
+        <div className="projects-container">
+          <Logo />
+          {projectItems}
+        </div>
       </div>
     </div>
   );

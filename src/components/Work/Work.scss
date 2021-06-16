@@ -13,8 +13,7 @@ section {
   justify-content: flex-start;
   transform: translate(0, 50%);
   will-change: opacity, visibility;
-  transition: opacity 300ms ease-out, transform 300ms ease-out;
-  transition: ease-in-out 250ms;
+  transition: opacity 2s ease-out, transform 2s ease-out;
   
 
   h1 {
@@ -34,8 +33,6 @@ section {
 
   &:hover {
     cursor: pointer;
-    transition: ease-in-out 250ms;
-    padding-left: 40px;
   }
 
 }
@@ -46,3 +43,58 @@ section {
   transform: none;
   visibility: visible;
 }
+
+
+
+@media screen and (min-width: 768px) {
+  .work-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    .work-inner-container {
+      width: 40%;
+      display: flex;
+      flex-flow: column nowrap;
+
+      section {
+
+        h1 {
+          transition: ease-in-out .2s all;
+
+          &:hover {
+            padding-left: 20px;
+            transition: ease-in-out .2s all;
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+
+//ADD HOVER TO MEDIA SCREEN QUERY
+
+
+// @media screen and (min-width: 768px) {
+//   section {
+//     width: 100%;
+
+//     &:hover {
+//       transition: ease-in-out 250ms all;
+//       padding-left: 40px;
+//     }
+//   }
+
+
+//   .work-container {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+
+//     .work-inner-container {
+//       width:50%;
+//     }
+//   }
+// }

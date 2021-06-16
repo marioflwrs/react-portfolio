@@ -4,7 +4,7 @@ import { Link  } from "react-router-dom";
 
 const Landing = () => {
     return(
-        <div className="landing-background">
+        <div className="landing-background landing-container">
             <div className="landing-nav-container">
                 <Link to="/work"><h1>Work</h1></Link>
                 <Link to="/about"><h1>About</h1></Link>

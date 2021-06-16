@@ -1,3 +1,12 @@
+@keyframes fadein {
+  from { opacity: 0; transform: translate3d(0, 0, 0) }
+  to { opacity: 1; transform: translate3d(0, 0, 0) }
+}
+
+.landing-container {
+  animation: fadein 2s ease-in-out backwards;
+}
+
 .landing-background {
   background-image: url(../../assets/mario-side.png);
   background-position: center;
@@ -25,13 +34,36 @@
       color: #e74900;
       transition: ease-in-out 0.3s all;
 
-      &:hover {
-
-        padding-left: 20px;
-        transition: ease-in-out 0.3s all;
-
-      }
     }
 
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .landing-background {
+
+    .landing-nav-container {
+
+      h1 {
+
+        &:hover {
+          padding-left: 20px;
+          transition: ease-in-out 0.3s all;
+        }
+      }
+    }
+  }
+}
+
+
+//Tablets and about
+@media screen and (min-width: 768px) {
+  .landing-background {
+
+    .landing-nav-container {
+      padding-left: 25%;
+
+     
+    }
   }
 }
