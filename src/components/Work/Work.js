@@ -16,7 +16,7 @@ const Work = () => {
         {
           title: "MARIOBALLE",
           description: "React & Sass",
-          url: "//www.google.com",
+          url: "//www.marioballe.com",
           key: 2
         },
       
