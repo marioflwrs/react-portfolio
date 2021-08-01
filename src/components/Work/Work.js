@@ -15,31 +15,30 @@ const Work = () => {
       
         {
           title: "MARIOBALLE",
-          description: "React & Sass",
+          description: "React, React Hooks, SASS, Github Pages",
           url: "//www.marioballe.com",
           key: 2
         },
       
         {
-          title: "LIONZOFZION",
+          title: "CYPHERBREAK",
           description: "React, Sass, Node, Express, MongoDB",
-          url: "//www.twitch.tv",
+          url: "//www.github.com/marioflwrs/cypherbreak",
           key: 3
         },
       
         {
-          title: "title 4",
-          description: "description 4",
-          url: "//www.viz.com",
+          title: "Quote Generator API",
+          description: "HTML, CSS, JQUERY",
+          url: "//www.codepen.io/wawamario/pen/ZJbQQX",
           key: 4
         },
-      
         {
-          title: "title 5",
-          description: "description 5",
-          url: "//www.npr.com",
+          title: "Wiki API Search",
+          description: "HTML, CSS, AJAX",
+          url: "//www.codepen.io/wawamario/pen/mMeJww",
           key: 5
-        },
+        }
       
       ]
 
