@@ -22,7 +22,7 @@ const About = () => {
                     <p>As a person, I am a natural introvert with an abundance of curiosity. I'm always looking for new ways to be able to solve bugs along with providing reuable code. </p>
                     <p>I currently work remotely creating websites with a selected freelance clientele base and am open for new opportunities.</p>
 
-                    <a href="https://drive.google.com/file/d/1AA7DD9LNsOjLRVjI0Had843N0zhqCRbr/view?usp=sharing" target="_blank" rel="noreferrer"><h2 className="resume-style">resume.</h2></a>
+                    <a href="https://docs.google.com/document/d/1HQXEpHidUW1SZT-YyRTVK8y9XxbtEjkheHdUt5HcFco/edit?usp=sharing" target="_blank" rel="noreferrer"><h2 className="resume-style">resume.</h2></a>
                 </div>
             </div>
         </div>
