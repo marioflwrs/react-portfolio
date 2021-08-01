@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff860a0a.chunk.css",
-    "main.js": "/static/js/main.67d2f525.chunk.js",
-    "main.js.map": "/static/js/main.67d2f525.chunk.js.map",
+    "main.css": "/static/css/main.d09717c8.chunk.css",
+    "main.js": "/static/js/main.ab2f9d77.chunk.js",
+    "main.js.map": "/static/js/main.ab2f9d77.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd11e37f.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd11e37f.js.map",
     "static/js/2.d5ed8f16.chunk.js": "/static/js/2.d5ed8f16.chunk.js",
     "static/js/2.d5ed8f16.chunk.js.map": "/static/js/2.d5ed8f16.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ff860a0a.chunk.css.map": "/static/css/main.ff860a0a.chunk.css.map",
+    "static/css/main.d09717c8.chunk.css.map": "/static/css/main.d09717c8.chunk.css.map",
     "static/js/2.d5ed8f16.chunk.js.LICENSE.txt": "/static/js/2.d5ed8f16.chunk.js.LICENSE.txt",
     "static/media/Contact.scss": "/static/media/mario-bench.918380ba.jpg",
     "static/media/Landing.scss": "/static/media/mario-side.bc5d0e06.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.dd11e37f.js",
     "static/js/2.d5ed8f16.chunk.js",
-    "static/css/main.ff860a0a.chunk.css",
-    "static/js/main.67d2f525.chunk.js"
+    "static/css/main.d09717c8.chunk.css",
+    "static/js/main.ab2f9d77.chunk.js"
   ]
 }
