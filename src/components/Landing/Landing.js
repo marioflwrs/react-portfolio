@@ -6,9 +6,9 @@ import React from 'react';
 
 
 export default function Landing() {
-    return (
-      <div>
-          <Navigation />
-      </div>
+    return(
+        <div>
+            <Navigation />
+        </div>
     )
-  }
+}

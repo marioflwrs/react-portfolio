@@ -1,0 +1,14 @@
+@import '../../variables';
+
+.nav-container {
+  color: $main-font;
+  .profile-container {
+    display: flex;
+    flex-flow: column nowrap;
+
+    .profile-picture {
+      width: 150px;
+      border-radius: 50%;
+    }
+  }
+}

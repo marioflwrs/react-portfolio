@@ -1,10 +1,14 @@
-import React from 'react'
+import './navigation.scss';
+import marioprofile from '../../assets/mario-side.png';
 
 export default function Navigation() {
   return (
     <div className="nav-container">
-    <h1>this is my nav</h1>
-      
+      <div className="profile-container">
+        <img className="profile-picture" src={marioprofile} alt="my face" />
+        <span>Mario Ballesteros</span>
+        <span>Brookly, NY</span>
+      </div>      
     </div>
   )
 }
