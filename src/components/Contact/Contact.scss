@@ -4,13 +4,19 @@
   display: flex;
   color: $main-font-color;
   justify-content: center;
+  margin-top: 20px;
 
   .contact-items-container {
     box-shadow: 16px 10px 39px -4px rgba(0,0,0,0.74);
     -webkit-box-shadow: 16px 10px 39px -4px rgba(0,0,0,0.74);
-    width: 400px;
+    width: 350px;
     height: 200px;
     border-radius: 10px;
+
+    .contact-title {
+      text-align: center;
+      padding: 5px;
+    }
 
     .contact-items {
       display: flex;

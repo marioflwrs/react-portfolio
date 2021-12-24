@@ -1,3 +1,5 @@
+@import '../../variables';
+
 @keyframes fadeslide {
   from { opacity: 0; transform: translate3d(0, 50px, 0) }
   to { opacity: 1; transform: translate3d(0, 0, 0) }
@@ -25,13 +27,8 @@
       flex-flow: column nowrap;
       width: 85%;
 
-      .title-style {
-        font-size: 3rem;
-        color: #e74900;
-      }
-
-      h2 {
-        font-weight: normal;
+      .about-title {
+        color: $secondary-font-color;
       }
       
       p {
@@ -43,7 +40,7 @@
       }
 
       .resume-style {
-        color: #e74900;
+        color: $secondary-font-color;
         font-weight: bold;
         letter-spacing: -1px;
         transition-delay: 1s;
