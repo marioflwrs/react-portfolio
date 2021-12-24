@@ -1,8 +1,6 @@
 import React, { useState, useRef, useEffect} from 'react';
 import "./Work.scss";
 
-import Logo from "../Logo/Logo";
-
 
 const Work = () => {
   const ProjectCards = [
@@ -28,16 +26,10 @@ const Work = () => {
         },
       
         {
-          title: "Quote Generator API",
-          description: "HTML, CSS, JQUERY",
-          url: "//www.codepen.io/wawamario/pen/ZJbQQX",
+          title: "Pokemon API",
+          description: "ReactJS, Axios, Sass, Hooks",
+          url: "#",
           key: 4
-        },
-        {
-          title: "Wiki API Search",
-          description: "HTML, CSS, AJAX",
-          url: "//www.codepen.io/wawamario/pen/mMeJww",
-          key: 5
         }
       
       ]
@@ -76,7 +68,6 @@ const Work = () => {
       <div className="work-inner-container">
         
         <div className="projects-container">
-          <Logo />
           {projectItems}
         </div>
       </div>
