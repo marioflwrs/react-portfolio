@@ -2,13 +2,24 @@
 
 .nav-container {
   color: $main-font;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   .profile-container {
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 
     .profile-picture {
       width: 150px;
       border-radius: 50%;
+    }
+  }
+
+  .links-container {
+    .nav-item {
+      margin: 0;
+      padding: 0;
     }
   }
 }
