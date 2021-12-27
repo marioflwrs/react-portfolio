@@ -1,3 +1,5 @@
+@import '../../variables';
+
 a {
   text-decoration: none;
 }
@@ -18,7 +20,7 @@ section {
 
   h1 {
     font-size: 2.3rem;
-    color: #e74900;
+    color: $secondary-font-color;
   }
 
   p {

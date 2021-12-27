@@ -1,7 +1,7 @@
 import './Contact.scss';
+import React, { useState, useRef, useEffect} from 'react';
 
 const Contact = () => {
-
 
     return(
         <div className="contact-container">

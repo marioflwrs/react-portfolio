@@ -1,10 +1,16 @@
 @import '../../variables';
 
+@keyframes fadeslide {
+  from { opacity: 0; transform: translate3d(0, 50px, 0) }
+  to { opacity: 1; transform: translate3d(0, 0, 0) }
+}
+
 .contact-container {
   display: flex;
   color: $main-font-color;
   justify-content: center;
   margin-top: 20px;
+  animation: fadeslide 2s ease-in-out backwards;
 
   .contact-items-container {
     box-shadow: 16px 10px 39px -4px rgba(0,0,0,0.74);
