@@ -2,16 +2,16 @@
 
 
 .nav-container {
-  color: $main-font-color;
   display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
   margin-top: 40px;
+  align-items: center;
+  color: $main-font-color;
+  flex-flow: column nowrap;
 
   .profile-container {
     display: flex;
-    flex-flow: column nowrap;
     align-items: center;
+    flex-flow: column nowrap;
 
     .profile-picture {
       width: 150px;
@@ -31,28 +31,32 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+
     .nav-item {
       margin: 20px;
-      padding-bottom: 10px;
-      transition: ease-in-out 0.3s all;
+      font-size: 20px;
+      color: $secondary-font-color;
+      font-weight: bold;
       border: none;
       position: relative;
+      padding-bottom: 10px;
+      transition: ease-in-out 0.3s all;
 
       &:after {
-        content: '';
-        position: absolute;
-        width: 0px;
-        height: 1px;
         left: 50%;
         bottom: 0;
-        background-color: $secondary-font-color;
+        width: 0px;
+        content: '';
+        height: 1.3px;
+        position: absolute;
+        background: #fff;
         transition: all ease-in-out .2s;
       }
 
       &:hover {
         &:after {
-          width: 100%;
           left: 0;
+          width: 100%;
         }
       }
 
@@ -60,8 +64,8 @@
         color: $secondary-font-color;
         
         &:after {
-          width: 100%;
           left: 0;
+          width: 100%;
         }
       }
     }

@@ -24,8 +24,8 @@ section {
   }
 
   p {
-    font-size: 0.81rem;
     color: #fff;
+    font-size: 0.81rem;
   }
 
   h1, p {
@@ -51,8 +51,8 @@ section {
 @media screen and (min-width: 650px) {
   .work-container {
     display: flex;
-    flex-flow: column nowrap;
     align-items: center;
+    flex-flow: column nowrap;
 
     .work-inner-container {
       width: 70%;

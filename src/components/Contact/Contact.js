@@ -1,5 +1,4 @@
 import './Contact.scss';
-import React, { useState, useRef, useEffect} from 'react';
 
 const Contact = () => {
 
