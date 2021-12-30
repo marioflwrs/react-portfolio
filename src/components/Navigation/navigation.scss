@@ -39,7 +39,7 @@
       font-weight: bold;
       border: none;
       position: relative;
-      padding-bottom: 10px;
+      padding: 10px;
       transition: ease-in-out 0.3s all;
 
       &:after {
@@ -54,6 +54,7 @@
       }
 
       &:hover {
+
         &:after {
           left: 0;
           width: 100%;
@@ -62,6 +63,8 @@
 
       &:focus {
         color: $secondary-font-color;
+        border: none;
+        transition: all ease-in-out 1s;
         
         &:after {
           left: 0;

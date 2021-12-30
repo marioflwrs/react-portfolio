@@ -1,13 +1,13 @@
 import './Navigation.scss';
 import marioprofile from '../../assets/mario-side.png';
-import { Link  } from "react-router-dom";
 import Work from '../Work/Work';
 import Contact from '../Contact/Contact';
 import About from '../About/About';
 
 import { 
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
+  Link,
   Route
 } from "react-router-dom";
 
@@ -15,7 +15,7 @@ import {
 export default function Navigation() {
 
   return (
-    <Router>
+    <HashRouter>
       <div className="nav-container">
         <div className="profile-container">
           <Link to="/"><img className="profile-picture" src={marioprofile} alt="my face" /> </Link>
@@ -41,6 +41,6 @@ export default function Navigation() {
           <Contact />
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   )
 }
