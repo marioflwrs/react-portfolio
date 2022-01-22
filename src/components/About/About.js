@@ -1,4 +1,5 @@
 import './About.scss';
+import marioresume from '../../assets/mario-ballesteros-resume22.pdf';
 
 const About = () => {
     
@@ -12,7 +13,7 @@ const About = () => {
                     <p>At this moment in my life, I now feel confident and experienced enough for me to put myself out there and seek for opportunities in the field of web development.</p>
                     <p>As a person, I am a natural introvert with an abundance of curiosity. I'm always looking for new ways to be able to solve bugs along with providing reusable code. I am a quick learner, I don't mind working long hours especially when its needed to meet a deadline. </p>
 
-                    <a href="https://docs.google.com/document/d/1HQXEpHidUW1SZT-YyRTVK8y9XxbtEjkheHdUt5HcFco/edit?usp=sharing" target="_blank" rel="noreferrer"><h2 className="resume-style">resume.</h2></a>
+                    <Link to={marioresume} download="marioballe-resume" target="_blank"><h2 className="resume-style">resume.</h2><Link/>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import './Contact.scss';
-import marioresume from '../../assets/mario-ballesteros-resumeUPDATED.pdf';
+import marioresume from '../../assets/mario-ballesteros-resume22.pdf';
 
 import {Link, BrowserRouter as Router} from 'react-router-dom';
 
