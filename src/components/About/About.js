@@ -14,7 +14,7 @@ const About = () => {
                     <p>At this moment in my life, I now feel confident and experienced  enough for me to put myself out there and seek for opportunities in the field of web development.</p>
                     <p>As a person, I am a natural introvert with an abundance of curiosity. I'm always looking for new ways to be able to solve bugs along with providing reusable code. I am a quick learner, I don't mind working long hours especially when its needed to meet a deadline. </p>
 
-                    <Link to={marioresume} download="marioballe-resume" target="_blank"><h2 className="resume-style">resume.</h2></Link>
+                    <Router><Link to={marioresume} download="marioballe-resume" target="_blank"><h2 className="resume-style">resume.</h2></Link></Router>
                 </div>
             </div>
         </div>
