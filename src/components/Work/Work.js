@@ -14,7 +14,7 @@ const Work = () => {
         {
           title: "MARIOBALLE",
           description: "React, React Hooks, SASS, Github Pages",
-          url: "//www.marioballe.com",
+          url: "//www.github.com/marioflwrs/react-portfolio/tree/2022portfolio",
           key: 2
         },
       
@@ -28,7 +28,7 @@ const Work = () => {
         {
           title: "Pokemon API",
           description: "ReactJS, Axios, Sass, Hooks",
-          url: "#",
+          url: "//www.github.com/marioflwrs/pokemon-api/tree/main/client",
           key: 4
         }
       
