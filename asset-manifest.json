@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.089083a3.chunk.css",
-    "main.js": "/static/js/main.493af556.chunk.js",
-    "main.js.map": "/static/js/main.493af556.chunk.js.map",
+    "main.css": "/static/css/main.85356ae2.chunk.css",
+    "main.js": "/static/js/main.95c15532.chunk.js",
+    "main.js.map": "/static/js/main.95c15532.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd11e37f.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd11e37f.js.map",
     "static/js/2.92c84c54.chunk.js": "/static/js/2.92c84c54.chunk.js",
     "static/js/2.92c84c54.chunk.js.map": "/static/js/2.92c84c54.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.089083a3.chunk.css.map": "/static/css/main.089083a3.chunk.css.map",
+    "static/css/main.85356ae2.chunk.css.map": "/static/css/main.85356ae2.chunk.css.map",
     "static/js/2.92c84c54.chunk.js.LICENSE.txt": "/static/js/2.92c84c54.chunk.js.LICENSE.txt",
     "static/media/mario-ballesteros-resumeUPDATED.17035c1f.pdf": "/static/media/mario-ballesteros-resumeUPDATED.17035c1f.pdf",
     "static/media/mario-side.da60d958.png": "/static/media/mario-side.da60d958.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.dd11e37f.js",
     "static/js/2.92c84c54.chunk.js",
-    "static/css/main.089083a3.chunk.css",
-    "static/js/main.493af556.chunk.js"
+    "static/css/main.85356ae2.chunk.css",
+    "static/js/main.95c15532.chunk.js"
   ]
 }
