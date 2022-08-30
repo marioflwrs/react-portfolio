@@ -28,7 +28,7 @@ const Work = () => {
         {
           title: "Pokemon API",
           description: "ReactJS, Axios, Sass, Hooks",
-          url: "//www.github.com/marioflwrs/pokemon-api/tree/main/client",
+          url: "https://pokemon-api-practice.netlify.app/",
           key: 4
         }
       
