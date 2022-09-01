@@ -19,15 +19,15 @@ const Work = () => {
         },
       
         {
-          title: "CYPHERBREAK (MERN STACK PRACTICE)",
-          description: "fullstack application - refreshing myself on MERN stack. Users can create post and delete jam events that they create if they have a registered user account with the website).",
-          url: "//https://mernstack-cypherbreak-jam.herokuapp.com/",
+          title: "CYPHERBREAK (Event creator / user login /registration)",
+          description: "MERN Stack application: Created a simple CRUD application using MongoDB, Express, React, and Node.js that can register and login users through a RESTful API.",
+          url: "//mernstack-cypherbreak-jam.herokuapp.com/",
           key: 3
         },
       
         {
           title: "Pokemon API",
-          description: "ReactJS, Axios, Sass, Hooks - built a simple website that allows users to search the 1st generation of pokemon and see their name, type, and color code",
+          description: "ReactJS, Axios, Sass - built a simple website that allows users to search the 1st gen pokemon and to see their poke-details.",
           url: "https://pokemon-api-practice.netlify.app/",
           key: 4
         }
