@@ -4,33 +4,39 @@ import "./Work.scss";
 
 const Work = () => {
   const ProjectCards = [
+      
         {
-          title: "TYLERBILLINGER",
-          description: "React, Sass, Heroku, Google SEO",
-          url: "//www.tylerbillinger.com",
+          title: "MARIOBALLE",
+          description: "React, React Hooks, SASS. Deployed with Github Pages",
+          url: "//www.github.com/marioflwrs/react-portfolio/tree/2022portfolio",
+          github: "//github.com/marioflwrs/react-portfolio/tree/2022portfolio",
           key: 1
         },
       
         {
-          title: "MARIOBALLE",
-          description: "React, React Hooks, SASS, Github Pages",
-          url: "//www.github.com/marioflwrs/react-portfolio/tree/2022portfolio",
+          title: "CYPHERBREAK",
+          description: "MERN Stack application: Created a web application using MongoDB, Express, React, and Node.js that can register and login users so that they can create and delete events. Deployed on Heroku.",
+          url: "//mernstack-cypherbreak-jam.herokuapp.com/",
+          github: "//github.com/marioflwrs/cypherbreak",
           key: 2
         },
       
         {
-          title: "CYPHERBREAK (Event creator / user login /registration)",
-          description: "MERN Stack application: Created a simple CRUD application using MongoDB, Express, React, and Node.js that can register and login users through a RESTful API.",
-          url: "//mernstack-cypherbreak-jam.herokuapp.com/",
+          title: "Pokemon API",
+          description: "ReactJS, Axios, Sass, Netlify - built a simple website that allows users to search the original 151     pokemon.",
+          url: "https://pokemon-api-practice.netlify.app/",
+          github: "//github.com/marioflwrs/pokemon-api",
           key: 3
         },
-      
+
         {
-          title: "Pokemon API",
-          description: "ReactJS, Axios, Sass - built a simple website that allows users to search the 1st gen pokemon and to see their poke-details.",
-          url: "https://pokemon-api-practice.netlify.app/",
+          title: "TYLERBILLINGER",
+          description: "A website for Tyler Billinger, a designer & artist in NYC.",
+          description2: "(website no longer live as of 05/2022)",
+          url: "//github.com/marioflwrs/heroku-tyler/tree/main/src",
+          github: "//github.com/marioflwrs/heroku-tyler/tree/main/src",
           key: 4
-        }
+        },
       
       ]
 
@@ -56,12 +62,16 @@ const Work = () => {
   };
 
   const projectItems = ProjectCards.map((data) => (
-    <a href={data.url} key={ data.key } target="_blank" rel="noreferrer">
-      <FadeInSection> 
-        <h1 className="project-title-style">{data.title}</h1> 
-        <p className="project-description-style">{data.description}</p>  
+    
+      <FadeInSection>
+        <a href={data.url} key={ data.key } target="_blank" rel="noreferrer">
+          <h1 className="project-title-style">{data.title}</h1>
+        </a>
+        <a className="project-description-style github-style" href={data.github}>Github</a>
+        <p className="project-description-style">{data.description}</p>
+        <p className="project-description-style">{data.description2}</p>  
       </FadeInSection>
-    </a>
+    
   ));
   return(
     <div className="work-container">

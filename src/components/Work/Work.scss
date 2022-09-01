@@ -30,11 +30,38 @@ section {
 
   h1, p {
     margin: 0;
-    padding: 0;
+    padding: 2px;
   }
 
   &:hover {
-    cursor: pointer;
+    cursor: pointer;  
+  }
+
+  .github-style {
+    color: rgb(48, 103, 253);
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    &:hover {
+      //animation of a small bounce on hover
+      animation: bounce 0.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
+
+      @keyframes bounce {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+    }
   }
 
 }
@@ -60,10 +87,8 @@ section {
       flex-flow: column nowrap;
 
       section {
-
         h1 {
           transition: ease-in-out .2s all;
-
           &:hover {
             padding-left: 20px;
             transition: ease-in-out .2s all;
